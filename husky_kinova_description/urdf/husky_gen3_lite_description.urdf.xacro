@@ -6,7 +6,7 @@
 
   <xacro:arg name="gripper" default="gen3_lite_2f" />
 
-  <xacro:arg name="sim" default="false" />
+  <xacro:arg name="sim" default="true" />
   <xacro:arg name="prefix" default="kinova_arm_" />
 
   <xacro:include filename="$(find kortex_description)/robots/kortex_robot.xacro" />
